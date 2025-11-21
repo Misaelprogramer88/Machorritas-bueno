@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-brandon',
-  imports: [],
+  standalone: true,
+  imports: [RouterModule],
   templateUrl: './brandon.component.html',
-  styleUrl: './brandon.component.scss'
+  styleUrls: ['./brandon.component.scss']  
 })
-export class BrandonComponent {
+export class BrandonComponent {}
 
-}
+

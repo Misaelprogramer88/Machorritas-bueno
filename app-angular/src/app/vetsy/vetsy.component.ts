@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-
+import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-vetsy',
-  imports: [],
+  selector: 'app-vetzy',
+  standalone: true,
+  imports: [RouterModule],
   templateUrl: './vetsy.component.html',
-  styleUrl: './vetsy.component.scss'
+  styleUrls: ['./vetsy.component.scss'] 
 })
-export class VetsyComponent {
-
-}
+export class VetsyComponent {}

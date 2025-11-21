@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-misael',
-  imports: [],
+  standalone: true,
+  imports: [RouterModule],
   templateUrl: './misael.component.html',
-  styleUrl: './misael.component.scss'
+  styleUrls: ['./misael.component.scss']  
 })
-export class MisaelComponent {
-
-}
+export class MisaelComponent {}
