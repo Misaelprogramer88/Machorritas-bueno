@@ -1,0 +1,37 @@
+:root {
+  --rosa: #ff69b4;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fffafc;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+h1, p {
+  color: var(--rosa);
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.pollito {
+  width: 150px;
+  height: 150px;
+  background: url("https://cdn-icons-png.flaticon.com/512/616/616408.png") no-repeat center/contain;
+  margin: 20px 0;
+  animation: saltito 1s infinite ease-in-out;
+}
+
+@keyframes saltito {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
