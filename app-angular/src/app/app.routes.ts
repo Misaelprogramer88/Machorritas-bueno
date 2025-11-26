@@ -5,6 +5,7 @@ import { MisaelComponent } from './misael/misael.component';
 import { ValeriaComponent } from './valeria/valeria.component';
 import { VetsyComponent } from './vetsy/vetsy.component';
 import { PepeComponent } from './pages/pepe/pepe.component';
+import { JonathanComponent } from './jonathan/jonathan.component';
 
 
 export const routes: Routes = [
@@ -14,6 +15,7 @@ export const routes: Routes = [
   { path: 'valeria', component: ValeriaComponent },
   { path: 'vetsy', component: VetsyComponent },
   { path: 'pepe', component: PepeComponent },
+  { path: 'jonathan', component: JonathanComponent },
   { path: '**', redirectTo: '' }
 ];
 

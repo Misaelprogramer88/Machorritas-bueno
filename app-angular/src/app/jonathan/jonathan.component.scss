@@ -1,0 +1,19 @@
+.body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 99%;
+    background-color: rgb(36, 26, 61);
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 98vh;
+    flex-direction: column;
+}
+.text{
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+.text:hover{
+    filter: drop-shadow(0 0 10px rgb(20, 220, 180));
+}
